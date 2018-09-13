@@ -8,13 +8,8 @@ use App\Http\Controllers\Controller;
 class IndexController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('VerifyAdmin');
-    }
-
-
-    public function login(){
-        dd(11);
+    // 后台首页
+    public function index(){
+        dd('后台首页');
     }
 }
