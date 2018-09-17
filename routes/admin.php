@@ -30,3 +30,9 @@ use Illuminate\Support\Facades\Route;
         Route::get('/','Admin\IndexController@index');
 
     });
+
+
+    //Excel导出
+    Route::get('/excel/export','Admin\ExcelController@export');
+    //Excel导入
+    Route::get('/excel/import','Admin\ExcelController@import');
