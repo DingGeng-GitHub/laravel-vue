@@ -9,7 +9,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-//路由前缀 就是讲此分组中的所有路由路径前加个前缀
+         //路由前缀 就是讲此分组中的所有路由路径前加个前缀
 
         // 注册
         Route::get('/register','Admin\LoginController@register');
